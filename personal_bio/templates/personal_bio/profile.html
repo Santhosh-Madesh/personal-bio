@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'personal_bio/profile.css' %}">
     <title>Personal Bio</title>
 </head>
 <body>
     <h2>
         Spider Man
     </h2>
-    <img alt="insert spiderman image here :)">
+    {% load static %}
+    <img src="{% static 'personal_bio/spidey.jpg' %}" alt="insert spiderman image here :)">
     <p>
         Hi! I am your friendly neigborhood  Spiderman! I like to swing, use webs and my spidey sense to stop crimes!
         In my free time i like to listen to music, swing around, work on projects and help people.<br><br>
