@@ -1,3 +1,28 @@
 body{
-    background-color: blueviolet;
+    background-color: white;
 }
+h2{
+    text-align: center;
+    font-size: 330%;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    padding-left: 46%;
+    width: 150px;
+    
+
+}
+p{
+    text-align: center;
+    font-size: 210%;
+}
+ul{
+    /* padding-left: 45%; */
+    text-align:left;
+    font-size: 170%;
+}
+footer{
+    font-size: 140%;
+    padding-bottom: 0%;
+}
+
